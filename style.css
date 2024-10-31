@@ -58,12 +58,17 @@
     margin: 4px 0;
 }
 
-/* Responsive for mobile */
-@media (max-width: 768px) {
-    .menu-icon {
-        display: flex;
+@media (max-width: 1200px) {
+    .nav-links {
+        display: none;
     }
     .nav-links.active {
         display: flex;
+        position: absolute;
+        top: 50px;
+        left: 20px;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px;
     }
 }
